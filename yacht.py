@@ -49,7 +49,7 @@ def score(dice, category):
                 cur_score = sum(dice)
     elif (category == FOUR_OF_A_KIND):
         if len(set_list) == 1:
-            cur_score = 4 * selt_list[0]
+            cur_score = 4 * set_list[0]
         elif len(set_list) == 2:
             if dice.count(set_list[0]) == 4:
                 cur_score = 4 * set_list[0]
